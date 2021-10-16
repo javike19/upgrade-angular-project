@@ -1,0 +1,36 @@
+.product-contain{
+    display: flex;
+    justify-content: center;
+}
+
+.product-contain img{
+    width: 700px;
+}
+
+.btn-contain{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-contain button{
+    width: 200px;
+    height: 60px;
+    color: white;
+    font-size: 25px;
+    background-image: -webkit-linear-gradient(top, #595a00, #927c01);
+    background-image: -moz-linear-gradient(top, #595a00, #927c01);
+    background-image: -ms-linear-gradient(top, #595a00, #927c01);
+    background-image: -o-linear-gradient(top, #595a00, #927c01);
+    background-image: linear-gradient(to bottom, #595a00, #927c01);
+}
+
+.btn-contain button:hover{
+    width: 230px;
+    height: 80px;
+}
+
+@media (max-width: 576px) {
+    .product-contain img{
+        width: 300px;
+    }
+}

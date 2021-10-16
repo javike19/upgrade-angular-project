@@ -1,0 +1,46 @@
+.nav-contain{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-contain{
+    align-items: center;
+}
+.title-contain h1{
+    text-transform: uppercase;
+}
+
+.logo-contain img{
+    width: 150px;
+}
+
+.user-contain{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 30px;
+}
+.user-contain a{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.user-contain a:hover{
+    color: rgb(185, 185, 0);
+}
+
+.user-contain img{
+    width: 50px;
+}
+
+@media (max-width: 576px) {
+    .user-contain a{
+        display: none;
+    }
+}
